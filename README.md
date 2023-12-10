@@ -48,6 +48,9 @@ This is the first release!!!
 
 ## ToDo
 
+- [ ] we're capturing numbers that are part of identifiers
+      and treating them as if they're numbers -- not
+      identifiers
 - [ ] file icon
 - [ ] improve syntax highlighting
   - [ ] for example, the comments aren't highlighted
