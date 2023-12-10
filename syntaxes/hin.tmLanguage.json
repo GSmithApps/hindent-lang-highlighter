@@ -7,7 +7,15 @@
             "name": "comment.block.hindent",
 			"begin": "^\\.",
 			"end": "\\.$"
-		}
+		},
+        {
+            "name": "comment.line.hindent",
+            "match": "^;.*$"
+        },
+        {
+            "name": "variable.hindent",
+            "match": ".+"
+        }
     ],
     "repository": {
         "code": {
