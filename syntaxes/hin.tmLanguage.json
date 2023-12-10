@@ -9,8 +9,23 @@
 			"end": "\\.$"
 		},
         {
+            "name": "string.quoted.double.hindent",
+            "begin": "\"",
+            "end": "\"",
+            "patterns": [
+                {
+                    "name": "constant.character.escape.hindent",
+                    "match": "\\\\."
+                }
+            ]
+        },
+        {
+            "name": "constant.numeric.hindent",
+            "match": "\\b[0-9]+\\b"
+        },
+        {
             "name": "comment.line.hindent",
-            "match": "^;.*$"
+            "match": ";.*$"
         },
         {
             "name": "variable.hindent",
