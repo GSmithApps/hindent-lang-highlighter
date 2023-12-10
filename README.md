@@ -21,6 +21,9 @@ We know that the syntax highlighting is limited and is a work in progress.
 
 ## Release Notes
 
+### 0.0.4
+
+more syntax highlighting!!
 
 ### 0.0.3
 
