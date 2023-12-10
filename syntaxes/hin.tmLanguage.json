@@ -12,7 +12,6 @@
             "name": "comment.line.hindent",
             "match": "^;.*$"
         }
-		
     ],
     "repository": {
         "code": {

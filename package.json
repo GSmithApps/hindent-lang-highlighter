@@ -1,10 +1,16 @@
 {
+  "publisher": "GrantSmith",
   "name": "hindent-lang",
   "displayName": "Hindent Lang",
   "description": "syntax highlighting for Hindent.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.85.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GSmithApps/hindent-lang-highlighter"
   },
   "categories": [
     "Programming Languages"
