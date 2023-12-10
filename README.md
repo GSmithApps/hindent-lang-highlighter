@@ -36,3 +36,5 @@ This is the first release!!!
 ```
 vsce publish
 ```
+
+Check on the build [here](https://marketplace.visualstudio.com/manage/publishers/grantsmith)
