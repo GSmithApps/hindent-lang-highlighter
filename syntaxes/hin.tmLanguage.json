@@ -4,14 +4,10 @@
     "fileTypes": ["hin"],
     "patterns": [
         {
-            "name": "entity.hindent",
+            "name": "comment.block.hindent",
 			"begin": "^\\.",
 			"end": "\\.$"
-		},
-        {
-            "name": "comment.block.hindent",
-            "match": ".+"
-        }
+		}
     ],
     "repository": {
         "code": {
