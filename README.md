@@ -31,6 +31,12 @@ Got it working a little better
 
 This is the first release!!!
 
+## ToDo
+
+- [ ] file icon
+- [ ] improve syntax highlighting
+  - [ ] for example, the comments aren't highlighted
+
 ## Note for Grant
 
 
