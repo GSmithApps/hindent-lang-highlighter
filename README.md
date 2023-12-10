@@ -21,6 +21,11 @@ We know that the syntax highlighting is limited and is a work in progress.
 
 ## Release Notes
 
+### 0.0.6
+
+Added support for lone dot comment to
+ignore indentation
+
 ### 0.0.5
 
 highlighting bug fix
