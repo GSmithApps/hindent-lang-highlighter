@@ -22,6 +22,9 @@ We know that the syntax highlighting is limited and is a work in progress.
 ## Release Notes
 
 
+### 0.0.3
+
+fixed coloring/highlighting
 
 ### 0.0.2
 
