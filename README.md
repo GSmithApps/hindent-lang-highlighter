@@ -23,7 +23,11 @@ We know that the syntax highlighting is limited and is a work in progress.
 
 
 
-### 1.0.0
+### 0.0.2
+
+Got it working a little better
+
+### 0.0.1
 
 This is the first release!!!
 
