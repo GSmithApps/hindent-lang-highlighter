@@ -3,14 +3,14 @@
     "scopeName": "source.hin",
     "fileTypes": ["hin"],
     "patterns": [
-		{
-			"name": "comment.block.hindent",
+        {
+            "name": "entity.hindent",
 			"begin": "^\\.",
 			"end": "\\.$"
 		},
         {
-            "name": "comment.line.hindent",
-            "match": "^;.*$"
+            "name": "comment.block.hindent",
+            "match": ".+"
         }
     ],
     "repository": {
