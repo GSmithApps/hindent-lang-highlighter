@@ -5,8 +5,8 @@
     "patterns": [
         {
             "name": "comment.block.hindent",
-			"begin": "^\\.",
-			"end": "\\.$"
+			"begin": "^\\.$",
+			"end": "^\\.$"
 		},
         {
             "name": "string.quoted.double.hindent",
