@@ -1,0 +1,25 @@
+{
+  "name": "hindent-lang",
+  "displayName": "Hindent Lang",
+  "description": "syntax highlighting for Hindent.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "hin",
+      "aliases": ["Hindent", "hin"],
+      "extensions": [".hin"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "hin",
+      "scopeName": "source.hin",
+      "path": "./syntaxes/hin.tmLanguage.json"
+    }]
+  }
+}
