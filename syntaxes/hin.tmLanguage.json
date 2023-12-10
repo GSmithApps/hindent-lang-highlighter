@@ -1,32 +1,23 @@
 {
-	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"name": "Hindent",
-	"patterns": [
+    "name": "Hindent",
+    "scopeName": "source.hin",
+    "fileTypes": ["hin"],
+    "patterns": [
 		{
-			"include": "#keywords"
+			"name": "comment.block.hindent",
+			"begin": "^\\.",
+			"end": "\\.$"
 		},
-		{
-			"include": "#strings"
-		}
-	],
-	"repository": {
-		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.hin",
-				"match": "\\b(if|while|for|return)\\b"
-			}]
-		},
-		"strings": {
-			"name": "string.quoted.double.hin",
-			"begin": "\"",
-			"end": "\"",
-			"patterns": [
-				{
-					"name": "constant.character.escape.hin",
-					"match": "\\\\."
-				}
-			]
-		}
-	},
-	"scopeName": "source.hin"
+        {
+            "name": "comment.line.hindent",
+            "match": "^;.*$"
+        }
+		
+    ],
+    "repository": {
+        "code": {
+            "patterns": [
+            ]
+        }
+    }
 }
