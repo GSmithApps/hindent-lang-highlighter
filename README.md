@@ -33,8 +33,7 @@ This is the first release!!!
 
 ## Note for Grant
 
-```
-vsce publish
-```
 
-Check on the build [here](https://marketplace.visualstudio.com/manage/publishers/grantsmith)
+- `vsce publish`
+- [Check on the build here](https://marketplace.visualstudio.com/manage/publishers/grantsmith)
+- [link to scopes](https://macromates.com/manual/en/language_grammars)
