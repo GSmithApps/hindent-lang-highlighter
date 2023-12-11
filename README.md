@@ -48,9 +48,12 @@ This is the first release!!!
 
 ## ToDo
 
+- [ ] the syntax highlighting on the lone dot doesn't seem
+      to be working
 - [ ] we're capturing numbers that are part of identifiers
       and treating them as if they're numbers -- not
       identifiers
+- [ ] square brackets are highlighting and shouldn't be
 - [ ] file icon
 - [ ] improve syntax highlighting
   - [ ] for example, the comments aren't highlighted
