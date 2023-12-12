@@ -3,7 +3,7 @@
   "name": "hindent-lang",
   "displayName": "Hindent Lang",
   "description": "syntax highlighting for Hindent.",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "engines": {
     "vscode": "^1.85.0"
   },
